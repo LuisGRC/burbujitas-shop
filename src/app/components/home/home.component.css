@@ -1,0 +1,32 @@
+.carousel-item img{
+    width: 75% !important;
+    height: 20% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+h1 {
+    position: absolute; 
+    left: 50%; 
+    transform: translatex(-50%);
+}
+
+@media only screen and (max-width: 700px) {
+    .carousel-item img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+    }
+}

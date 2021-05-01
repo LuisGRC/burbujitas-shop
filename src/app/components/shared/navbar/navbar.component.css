@@ -1,0 +1,188 @@
+/* Modify the backgorund color */ 
+.navbar-custom:hover { 
+    color: #c820e6 !important;
+}
+
+.navbar-nav.navbar-center {
+    font-size: large;
+    width: 100%;
+    margin: auto;
+}
+
+.activo{
+    color: #c820e681 !important;
+    font-weight: 700;
+}
+
+ #logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    position: relative;
+    left: 850px; 
+} 
+
+#logo-burbujitas {
+    width: 250px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 1600px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        position: relative;
+        left: 900px;
+    }
+
+    #logo-burbujitas {
+        width: 200px;
+        height: 100px;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        position: relative;
+        left: 720px;
+    }
+
+    #logo-burbujitas {
+        width: 200px;
+        height: 100px;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #logo {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        position: relative;
+        left: 650px;
+    }
+
+    #logo-burbujitas {
+        width: 200px;
+        height: 100px;
+        margin-left: 5px;
+        position: relative;
+        right: 70px;
+    }
+
+    /* .navbar-nav.navbar-center {
+        position: absolute;
+        left: 53%;
+        transform: translatex(-50%);
+    } */
+}
+
+@media only screen and (max-width: 1100px) {
+    #logo {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        position: relative;
+        left: 600px;
+    }
+
+    #logo-burbujitas {
+        width: 200px;
+        height: 100px;
+        margin-left: 5px;
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        position: relative;
+        left: 0px;
+    }
+
+    #logo-burbujitas {
+        width: 200px;
+        height: 100px;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    #logo {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        position: relative;
+        left: 0px;
+    }
+
+    #logo-burbujitas {
+        width: 150px;
+        height: 70px;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #logo {
+        width: 25px;
+        height: 25px;
+        margin: 3px;
+        position: relative;
+        left: 0px;
+    }
+
+    #logo-burbujitas {
+        width: 120px;
+        height: 70px;
+        margin-left: 5px;
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #logo {
+        width: 25px;
+        height: 25px;
+        margin: 3px;
+        position: relative;
+        left: 0px;
+    }
+
+    #logo-burbujitas {
+        width: 100px;
+        height: 70px;
+        margin-left: 2px;
+        position: relative;
+        left: 2px;
+    }
+} 
+
+@media only screen and (max-width: 325px) {
+    #logo {
+        width: 25px;
+        height: 25px;
+        margin: 3px;
+        position: relative;
+        left: 0px;
+    }
+
+    #logo-burbujitas {
+        width: 70px;
+        height: 35px;
+        margin-left: 2px;
+        position: relative;
+        left: 15px;
+    }
+} 
