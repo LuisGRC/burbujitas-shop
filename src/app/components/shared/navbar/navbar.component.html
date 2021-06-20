@@ -1,6 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffffff;">
     <div class="container-md">        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarTogglerDemo02" 
+                aria-controls="navbarTogglerDemo02" 
+                aria-expanded="collapsed" 
+                aria-label="Toggle navigation"
+                id="boton"
+                (click)="colapsa()">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-brand">
@@ -14,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav navbar-center">
                 <li class="nav-item">
-                    <a class="nav-link navbar-custom" routerLinkActive="activo" [routerLink]="['home']"> INICIO </a>
+                    <a class="nav-link navbar-custom" routerLinkActive="activo" [routerLink]="['home']" (click)="cambiaClase()"> INICIO </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navbar-custom" routerLinkActive="activo" [routerLink]="['pasteles']"> PASTELES </a>
@@ -32,8 +40,7 @@
                     <a class="nav-link navbar-custom" routerLinkActive="activo" [routerLink]="['cotizaciones']"> COTIZACIONES </a>
                 </li>
             </ul>
-        </div>
-        
+        </div>        
     </div>
 </nav>
 
